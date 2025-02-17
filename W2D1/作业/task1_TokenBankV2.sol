@@ -4,6 +4,9 @@
 pragma solidity ^0.8.0;
 // 指定使用的编程语言版本，就像告诉电脑我们用什么版本的工具
 
+// 先导入TokenBank合约, 后面要继承
+import "./W1D5_TokenBank.sol";
+
 // 定义一个接口，就像是一个规范，告诉其他合约必须实现哪些功能
 interface ITokenReceiver {
     // 定义接收代币时的回调函数
