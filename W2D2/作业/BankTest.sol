@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-import {Test, console2} from "forge-std/Test.sol";
-import {Bank} from "../src/Bank.sol";
+import {Test} from "forge-std/Test.sol";
+import {Bank} from "src/Bank.sol";
 
 contract BankTest is Test {
     Bank public bank;
@@ -35,4 +35,4 @@ contract BankTest is Test {
 
         vm.stopPrank();
     }
-}
+} 
